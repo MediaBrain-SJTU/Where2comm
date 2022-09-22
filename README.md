@@ -12,7 +12,7 @@ Presented at [Neurips 2022](https://nips.cc/)
 
 **Abstract:** Multi-agent collaborative perception could significantly upgrade the perception performance by enabling agents to share complementary information with each other through communication. It inevitably results in a fundamental trade-off between perception performance and communication bandwidth. To tackle this bottleneck issue, we propose a spatial confidence map, which reflects the spatial heterogeneity of perceptual information. It empowers agents to only share spatially sparse, yet perceptually critical information, contributing to where to communicate. 
 
-![Where2comm](./images/intro.png)
+![Where2comm](./images/Intro.png)
 
 
 If you find this code useful in your research then please cite
