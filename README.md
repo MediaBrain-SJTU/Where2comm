@@ -4,7 +4,7 @@ Code will come soon.
 
 This repository contains the official PyTorch implementation of:
 
-**Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps</a>**
+**Where2comm: Communication-Efficient Collaborative Perception via Spatial Confidence Maps</a>**
 <br>
 <a href="https://scholar.google.com/citations?user=XBbwb78AAAAJ&hl=zh-CN"> Yue Hu, <a href="https://github.com/dongfeng12"> Shaoheng Fang, <a href="https://chezacar.github.io/">Zixing Lei, <a href="https://github.com/Kay1794"> Yiqi Zhong, <a href="https://mediabrain.sjtu.edu.cn/sihengc/">Siheng Chen</a> 
 <br>
@@ -20,7 +20,7 @@ If you find this code useful in your research then please cite
 ```
 @inproceedings{Where2comm:22,
   author    = {Yue Hu, Shaoheng Fang, Zixing Lei, Yiqi Zhong, Siheng Chen},
-  title     = {Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps},
+  title     = {Where2comm: Communication-Efficient Collaborative Perception via Spatial Confidence Maps},
   booktitle = {Thirty-sixth Conference on Neural Information Processing Systems (Neurips)},
   month     = {November},  
   year      = {2022}
