@@ -54,7 +54,7 @@ If you find this code useful in your research then please cite
 
 ## Quick Start
 ### Install
-Please refer to the INSTALL for detailed 
+Please refer to the [INSTALL.md](./docs/INSTALL.md) for detailed 
 documentations. 
 
 ### Download dataset DAIR-V2X
