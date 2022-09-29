@@ -105,14 +105,8 @@ class EarlyFusionDatasetDAIR(Dataset):
             The dictionary contains loaded yaml params and lidar data for
             each cav.
         """
-        co_datainfo = load_json(os.path.join(self.root_dir, 'cooperative/data_info.json'))
         veh_frame_id = self.split_info[idx]
-        frame_info = {}
-        system_error_offset = {}
-        for frame_info_i in co_datainfo:
-            if frame_info_i['vehicle_image_path'].split("/")[-1].replace(".jpg", "") == veh_frame_id:
-                frame_info = frame_info_i
-                break
+        frame_info = self.co_data[veh_frame_id]
         system_error_offset = frame_info["system_error_offset"]
         data = OrderedDict()
         data[0] = OrderedDict() # veh-side
@@ -135,7 +129,7 @@ class EarlyFusionDatasetDAIR(Dataset):
 
         data[1]['params'] = OrderedDict()
         inf_frame_id = frame_info['infrastructure_image_path'].split("/")[-1].replace(".jpg", "")
-        data[1]['params']['vehicles'] = load_json(os.path.join(self.root_dir,frame_info['cooperative_label_path']))
+        data[1]['params']['vehicles'] = []
         virtuallidar_to_world_json_file = load_json(os.path.join(self.root_dir,'infrastructure-side/calib/virtuallidar_to_world/'+str(inf_frame_id)+'.json'))
         transformation_matrix1 = inf_side_rot_and_trans_to_trasnformation_matrix(virtuallidar_to_world_json_file,system_error_offset)
         data[1]['params']['lidar_pose'] = tfm_to_pose(transformation_matrix1)
