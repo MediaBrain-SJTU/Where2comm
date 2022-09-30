@@ -88,11 +88,11 @@ Arguments Explanation:
 The evaluation results  will be dumped in the model directory.
 
 ## Acknowledgements
-Thank for the remarkable engineering support by [YiFan Lu](https://github.com/yifanlu0227)!
+Thank for the excellent cooperative perception codebases [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and [CoPerception](https://github.com/coperception/coperception).
 
-Thank for the excellent cooperative perception codebases [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and [CoPerception](https://github.com/coperception/coperception)!
+Thank for the excellent cooperative perception datasets [DAIR-V2X](https://thudair.baai.ac.cn/index), [OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) and [V2X-SIM](https://ai4ce.github.io/V2X-Sim/).
 
-Thank for the excellent cooperative perception datasets [DAIR-V2X](https://thudair.baai.ac.cn/index), [OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) and [V2X-SIM](https://ai4ce.github.io/V2X-Sim/)!
+Thank for the dataset and code support by [YiFan Lu](https://github.com/yifanlu0227).
 
 ## Relevant Projects
 
