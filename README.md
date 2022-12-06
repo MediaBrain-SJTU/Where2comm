@@ -1,5 +1,7 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/where2comm-communication-efficient/3d-object-detection-on-dair-v2x)](https://paperswithcode.com/sota/3d-object-detection-on-dair-v2x?p=where2comm-communication-efficient)
 # Where2comm
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.12836)
+[![project](https://img.shields.io/badge/project-Page-blue)](https://coperception.github.io/where2comm/)
 
 This repository contains the official PyTorch implementation of
 
