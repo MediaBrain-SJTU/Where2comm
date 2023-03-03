@@ -3,6 +3,8 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.12836)
 [![project](https://img.shields.io/badge/project-Page-blue)](https://coperception.github.io/where2comm/)
 
+### The [CoPerception-UAV](https://siheng-chen.github.io/dataset/coperception-uav/) dataset is avaliable at [here](https://siheng-chen.github.io/dataset/coperception-uav/).
+
 This repository contains the official PyTorch implementation of
 
 [**Where2comm: Communication-Efficient Collaborative Perception via Spatial Confidence Maps</a>**](https://arxiv.org/abs/2209.12836)
